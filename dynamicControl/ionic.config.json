@@ -1,0 +1,7 @@
+{
+  "name": "dynamicControl",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
