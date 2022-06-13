@@ -7,6 +7,7 @@ import { IonicModule } from '@ionic/angular';
 import { NewPagePageRoutingModule } from './new-page-routing.module';
 
 import { NewPagePage } from './new-page.page';
+import { OppMetricDirective } from '../opp-metric.directive';
 
 @NgModule({
   imports: [
@@ -15,6 +16,7 @@ import { NewPagePage } from './new-page.page';
     IonicModule,
     NewPagePageRoutingModule
   ],
-  declarations: [NewPagePage]
+  declarations: [NewPagePage,
+  OppMetricDirective]
 })
 export class NewPagePageModule {}
